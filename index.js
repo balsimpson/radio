@@ -1,3 +1,11 @@
+let channel_list = [];
+		let new_channel = {
+			name: '',
+			stations: []
+		};
+
+		let modal_station_count = 0;
+
 const empty_state_html = `
 			<div class="empty-state">
 				<div class="flow-text">You have no saved channels. Add one now.</div>
