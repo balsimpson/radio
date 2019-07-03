@@ -1,3 +1,4 @@
+console.log(channel_listings);
 let channel_list = [];
 		let new_channel = {
 			name: '',
